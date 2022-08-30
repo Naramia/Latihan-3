@@ -1,0 +1,201 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+header
+{
+    position: fixed;
+    display: flex;
+    top: 0;
+    padding-left: 80px;
+    padding-right: 1000px;
+    z-index: 100000;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+}
+
+body
+{
+font-family: "Comfortaa";
+}
+
+.bg-color
+{
+    background-color: #ffffff;
+}
+
+p{
+    text-align: center;
+    font-size: 30px;
+    color: #fc4b03;
+}
+
+.mascot{
+    width: 140px;
+    height: 70px;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.search-box{
+    font-family: Century Gothic;
+    font-size: 15px;
+    width: 550px;
+    height: 40px;
+    background-color: #ffffff;
+    margin-left: 40px;
+    margin-top: 10px;
+    border: 1px;
+    padding-left: 20px;
+    padding-right: 40px;
+    border-radius: 12px;
+    border-color: #d1d3d4;
+    border-style:solid;
+    letter-spacing: 1.1px;
+}
+
+.search-icon
+{
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background-color: #fc4c02;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: 810px;
+    border-radius: 0 10px 10px 0;
+}
+
+.cart-icon
+{
+    position: fixed;
+    top: 20px;
+    width: 125%;
+    height: 125%;
+    margin-left: 915px;
+}
+
+.transaction-icon
+{
+    position: fixed;
+    top: 20px;
+    width: 125%;
+    height: 125%;
+    margin-left: 965px;
+}
+
+.wishlist-icon
+{
+    position: fixed;
+    top: 20px;
+    width: 125%;
+    height: 125%;
+    margin-left: 1015px;
+}
+
+div img
+{
+    width: 100%;
+    position: relative;
+    height: 400px;
+}
+
+.Border1
+{
+    width: 1px;
+    height: 50px;
+    background-color: #d1d3d4;
+    margin-left: 1065px;
+    top: 10px;
+    position: fixed;
+}
+
+.sign-in-btn
+{
+    color: #fc4b03;
+    font-size: 14px;
+    font-family: Century Gothic;
+    margin-left: 1115px;
+    top: 25px;
+    position: fixed;
+}
+
+.card2
+{
+    position:relative;
+    width: 1100px;
+    height: 200px;
+    bottom: 75px;
+    left: 125px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.text1
+{
+    font-family: Comfortaa;
+    font-weight:900;
+    font-size: 24px;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 40px;
+
+}
+
+.urtick
+{
+    bottom: 45px;
+    left: 70px;
+    padding-left: 200px;
+    width: 20.5%;
+    height: auto;
+}
+
+label{
+    text-align: left;
+}
+
+.stuff
+{
+    font-size: 12px;
+    font-family: Comfortaa;
+    padding-left: 40px;
+    display: block;
+}
+
+.search-box2
+{
+    font-family: Century Gothic;
+    font-size: 11px;
+    width: 350px;
+    height: 40px;
+    background-color: #ffffff;
+    margin-left: 40px;
+    border: 1px;
+    padding-left: 20px;
+    padding-right: 40px;
+    border-radius: 5px;
+    border-color: #d1d3d4;
+    border-style:solid;
+}
+
+.Border2
+{
+    width: 1px;
+    height: 120px;
+    background-color: #d1d3d4;
+    margin-left: 750px;
+    bottom: 100px;
+    position: relative;
+
+}

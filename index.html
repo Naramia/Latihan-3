@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kyou Hobby Shop - Anime Figure</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="main.css">
+<link rel="shortcut icon" href="Assets/logo.png"/>
+<title>Kyou Hobby Shop - Anime Figure & Merchandise</title>
 </head>
-<body>
-    
+<body class="bg-color">
+    <header>
+    <img src="Assets/mascot.png.webp" class="mascot">
+    <img src="Assets/kyou.png.webp" class="logo">
+    <input type="text" placeholder="khilaf apa hari ini..." class="search-box">
+    <a class="search-icon"><img src="Assets/search.svg" alt="Search"></a>
+    <a href="product.html" class="cart-icon"><img src="Assets/cart.svg" alt="Cart"></a>
+    <a class="transaction-icon"><img src="Assets/transactions.svg" alt="Transaction"></a>
+    <a class="wishlist-icon"><img src="Assets/wishlist_navbar.svg" alt="Wishlist"></a>
+    <div class="Border1"></div>
+    <a class="sign-in-btn">Sign in</a>
+    </header>
+    <section>
+    <div class="card">
+    <img src="Assets/Banner-BG.png">
+    </div>
+    </section>
+    <section>
+    <div class="card2">
+        <p class="text1">UNIQUE REQUEST</p>
+        <img class="urtick" src="Assets/urtick.svg" alt="Ur-Tick">
+        <label class="stuff" for="name">Masukkan link barang yang kamu inginkan!</label>
+        <br>
+        <input class="search-box2" type="text" name="name" id="name" placeholder="E.g. https://amiami.com/items/1525...">
+        <div class="Border2"></div>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <p>test</p>
+    </section>
+    <script type="text/javascript">
+        window.addEventListener("scroll", function(){
+            var header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0)
+        })
+    </script>
 </body>
 </html>
